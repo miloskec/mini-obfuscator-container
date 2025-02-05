@@ -70,9 +70,9 @@ curl -X POST "http://localhost:3000/process-css" \
 
 #### process-files.sh
 Bash script that will:
-✅ Read a list of JavaScript (.js) and CSS (.css) file paths from a given file.
-✅ Send each file’s content in a POST request to the Minification & Obfuscation API using curl.
-✅ Save the processed (minified/obfuscated) output to new .min.js or .min.css files.
+- ✅ Read a list of JavaScript (.js) and CSS (.css) file paths from a given file.
+- ✅ Send each file’s content in a POST request to the Minification & Obfuscation API using curl.
+- ✅ Save the processed (minified/obfuscated) output to new .min.js or .min.css files.
 ---
 
 ## 🔄 Managing the API
